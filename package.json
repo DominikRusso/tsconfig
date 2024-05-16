@@ -19,7 +19,8 @@
     "prettier": "3.2.5"
   },
   "scripts": {
-    "fmt": "prettier --cache --write ."
+    "fmt": "prettier --cache --write .",
+    "test": "node test/test.mjs"
   },
   "repository": {
     "type": "git",
