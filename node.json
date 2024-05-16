@@ -1,0 +1,6 @@
+{
+  "extends": "./base.jsonc",
+  "compilerOptions": {
+    "module": "node16"
+  }
+}

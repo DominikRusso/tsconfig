@@ -1,0 +1,8 @@
+{
+  "extends": "./base.jsonc",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "module": "es2022",
+    "moduleResolution": "bundler"
+  }
+}
