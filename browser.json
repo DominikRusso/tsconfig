@@ -2,6 +2,7 @@
   "extends": "./base.jsonc",
   "compilerOptions": {
     "emitDeclarationOnly": true,
+    "lib": ["es2022", "dom", "dom.iterable"],
     "module": "es2022",
     "moduleResolution": "bundler"
   }

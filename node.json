@@ -1,6 +1,7 @@
 {
   "extends": "./base.jsonc",
   "compilerOptions": {
+    "lib": ["es2022"],
     "module": "node16"
   }
 }
