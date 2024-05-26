@@ -4,6 +4,9 @@ Base tsconfigs for node and browsers.
 
 ## Usage
 
+Add `@dominikrusso/tsconfig` as a devDependency.
+Then extend one of the configs:
+
 ```jsonc
 // tsconfig.json
 
