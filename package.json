@@ -1,32 +1,32 @@
 {
-  "name": "@dominikrusso/tsconfig",
-  "author": "Dominik Russo",
-  "version": "0.3.2",
-  "license": "MIT",
-  "description": "Base tsconfigs for node and browsers.",
-  "keywords": [
-    "tsconfig"
-  ],
-  "files": [
-    "base.jsonc",
-    "browser.json",
-    "node.json"
-  ],
-  "peerDependencies": {
-    "typescript": "^5.4.0"
-  },
-  "devDependencies": {
-    "prettier": "3.2.5"
-  },
-  "scripts": {
-    "fmt": "prettier --cache --write .",
-    "test": "node test/test.mjs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dominikrusso/tsconfig"
-  },
-  "engines": {
-    "pnpm": ">=9.0.0"
-  }
+	"name": "@dominikrusso/tsconfig",
+	"author": "Dominik Russo",
+	"version": "0.3.2",
+	"license": "MIT",
+	"description": "Base tsconfigs for node and browsers.",
+	"keywords": [
+		"tsconfig"
+	],
+	"files": [
+		"base.jsonc",
+		"browser.json",
+		"node.json"
+	],
+	"peerDependencies": {
+		"typescript": "^5.4.0"
+	},
+	"devDependencies": {
+		"prettier": "3.2.5"
+	},
+	"scripts": {
+		"fmt": "prettier --cache --write .",
+		"test": "node test/test.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dominikrusso/tsconfig"
+	},
+	"engines": {
+		"pnpm": ">=9.0.0"
+	}
 }

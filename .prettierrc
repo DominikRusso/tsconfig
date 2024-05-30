@@ -1,11 +1,11 @@
 {
-  "useTabs": true,
-  "overrides": [
-    {
-      "files": "*.jsonc",
-      "options": {
-        "trailingComma": "none"
-      }
-    }
-  ]
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "*.jsonc",
+			"options": {
+				"trailingComma": "none"
+			}
+		}
+	]
 }

@@ -1,38 +1,38 @@
 {
-  "compilerOptions": {
-    // Type Checking
-    "strict": true,
-    "allowUnusedLabels": false,
-    "allowUnreachableCode": false,
-    "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+	"compilerOptions": {
+		// Type Checking
+		"strict": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
 
-    // Modules
-    "resolveJsonModule": true,
+		// Modules
+		"resolveJsonModule": true,
 
-    // Emit
-    "declaration": true,
-    "declarationMap": true,
-    "noEmitOnError": true,
-    "sourceMap": true,
+		// Emit
+		"declaration": true,
+		"declarationMap": true,
+		"noEmitOnError": true,
+		"sourceMap": true,
 
-    // JavaScript Support
-    "allowJs": false,
+		// JavaScript Support
+		"allowJs": false,
 
-    // Interop Constraints
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
+		// Interop Constraints
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
 
-    // Language and Environment
-    "target": "es2022",
+		// Language and Environment
+		"target": "es2022",
 
-    // Completeness
-    "skipLibCheck": true
-  }
+		// Completeness
+		"skipLibCheck": true
+	}
 }

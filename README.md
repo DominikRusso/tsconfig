@@ -11,11 +11,11 @@ Then extend one of the configs:
 // tsconfig.json
 
 {
-  "extends": "@dominikrusso/tsconfig/node.json",
-  "compilerOptions": {
-    "outDir": "./dist",
-  },
-  "include": ["src"],
+	"extends": "@dominikrusso/tsconfig/node.json",
+	"compilerOptions": {
+		"outDir": "./dist",
+	},
+	"include": ["src"],
 }
 ```
 
