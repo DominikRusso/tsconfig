@@ -2,6 +2,7 @@
 	"name": "@dominikrusso/tsconfig",
 	"author": "Dominik Russo",
 	"version": "0.3.2",
+	"type": "module",
 	"license": "MIT",
 	"description": "Base tsconfigs for node and browsers.",
 	"keywords": [
@@ -20,7 +21,7 @@
 	},
 	"scripts": {
 		"fmt": "prettier --cache --write .",
-		"test": "node test/test.mjs"
+		"test": "node test/test.js"
 	},
 	"repository": {
 		"type": "git",
