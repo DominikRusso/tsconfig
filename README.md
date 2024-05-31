@@ -1,6 +1,20 @@
 # @dominikrusso/tsconfig
 
-Base tsconfigs for node and browsers.
+Base tsconfigs.
+
+## Provided Configs
+
+`<transpiler>-<environment>-<variant>.json`
+
+- transpiler
+  - `tsc`: you are using tsc to transpile your package
+  - `bundler`: you are using a bundler (esbuild, bun, swc, ...)
+- environment:
+  - `browser`: you are using [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+  - `node`: you are _not_ using Web APIs
+- variant:
+  - `app`: you are creating an application
+  - `lib`: you are creating a library
 
 ## Usage
 
@@ -11,7 +25,7 @@ Then extend one of the configs:
 // tsconfig.json
 
 {
-	"extends": "@dominikrusso/tsconfig/node.json",
+	"extends": "@dominikrusso/tsconfig/tsc-node-app.json",
 	"compilerOptions": {
 		"outDir": "./dist",
 	},

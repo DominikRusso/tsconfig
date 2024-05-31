@@ -1,9 +1,9 @@
 {
 	"extends": "./base.jsonc",
 	"compilerOptions": {
-		"emitDeclarationOnly": true,
+		"module": "node16",
+		"moduleResolution": "node16",
 		"lib": ["es2022", "dom", "dom.iterable"],
-		"module": "es2022",
-		"moduleResolution": "bundler"
+		"declaration": true
 	}
 }

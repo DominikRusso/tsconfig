@@ -1,7 +1,0 @@
-{
-	"extends": "../browser.json",
-	"compilerOptions": {
-		"noEmit": true,
-		"emitDeclarationOnly": false
-	}
-}
