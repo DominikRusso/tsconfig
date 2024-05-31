@@ -1,0 +1,9 @@
+{
+	"extends": "./base.jsonc",
+	"compilerOptions": {
+		"module": "preserve",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"lib": ["es2022", "dom", "dom.iterable"]
+	}
+}

@@ -17,8 +17,6 @@
 		"resolveJsonModule": true,
 
 		// Emit
-		"declaration": true,
-		"declarationMap": true,
 		"noEmitOnError": true,
 		"sourceMap": true,
 

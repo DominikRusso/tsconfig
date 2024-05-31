@@ -10,18 +10,19 @@
 	],
 	"files": [
 		"base.jsonc",
-		"browser.json",
-		"node.json"
+		"bundler-*.json",
+		"tsc-*.json"
 	],
 	"peerDependencies": {
 		"typescript": "^5.4.0"
 	},
 	"devDependencies": {
+		"@types/node": "20.12.13",
 		"prettier": "3.2.5"
 	},
 	"scripts": {
 		"fmt": "prettier --cache --write .",
-		"test": "node test/test.js"
+		"test": "bun run test/test.ts"
 	},
 	"repository": {
 		"type": "git",
