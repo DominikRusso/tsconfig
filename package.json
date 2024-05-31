@@ -1,7 +1,7 @@
 {
 	"name": "@dominikrusso/tsconfig",
 	"author": "Dominik Russo",
-	"version": "0.3.2",
+	"version": "1.0.0",
 	"type": "module",
 	"license": "MIT",
 	"description": "Base tsconfigs for node and browsers.",
