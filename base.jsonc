@@ -18,6 +18,7 @@
 
 		// Emit
 		"noEmitOnError": true,
+		"outDir": "${configDir}/dist",
 		"sourceMap": true,
 
 		// JavaScript Support
