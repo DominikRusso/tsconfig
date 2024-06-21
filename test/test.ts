@@ -40,17 +40,14 @@ test("bundler-node-lib.json", (out) => {
 
 function test(tsconfig: string, validate: (outDir: string) => void): void {
 	const localProject = mkLocalProject(tsconfig);
-	exec(
-		`pnpm exec tsc --project ${localProject} --outDir ${localProject}/dist`,
-		(error, stdout, stderr) => {
-			if (error || stderr || stdout) {
-				console.error(`Issue with ${tsconfig}`, { stdout, stderr });
-				process.exitCode = 1;
-			}
-			validate(localProject + "/dist");
-			fs.rmSync(localProject, { recursive: true });
-		},
-	);
+	exec(`pnpm exec tsc --project ${localProject}`, (error, stdout, stderr) => {
+		if (error || stderr || stdout) {
+			console.error(`Issue with ${tsconfig}`, { stdout, stderr });
+			process.exitCode = 1;
+		}
+		validate(localProject + "/dist");
+		fs.rmSync(localProject, { recursive: true });
+	});
 }
 
 function mkLocalProject(tsconfig: string): string {
