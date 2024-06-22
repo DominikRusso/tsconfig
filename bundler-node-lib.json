@@ -5,6 +5,7 @@
 		"moduleResolution": "bundler",
 		"lib": ["es2022"],
 		"declaration": true,
+		"isolatedDeclarations": true,
 		"emitDeclarationOnly": true
 	}
 }
